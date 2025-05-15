@@ -4,11 +4,6 @@ import time
 import traceback
 import asyncio
 from aiogram import Bot, Dispatcher
-from aiogram.types import BufferedInputFile
-
-import weasyprint as wsp
-from PIL import Image, ImageChops
-import pdf2image
 
 import os
 from dotenv import load_dotenv
